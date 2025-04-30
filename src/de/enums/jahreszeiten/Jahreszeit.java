@@ -25,7 +25,7 @@ public enum Jahreszeit {
             default:
                 return "";
         }
-        
+    }   
 // Alternativ:
 //    private static final String[] BESCHREIBUNGEN = {
 //                "Zeit des Erwachens oder Blütezeit",
@@ -42,8 +42,6 @@ public enum Jahreszeit {
 //        return "";
 //    }
         
-    }
-
     /**
      * Gibt die nächste Jahreszeit im Jahreszyklus zurück.
      *
